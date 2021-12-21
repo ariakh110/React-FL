@@ -8,7 +8,7 @@ const Contact = () => {
           <div className="flex flex-col items-center w-full lg:flex-row lg:w-1/2">
             <div className="max-w-lg">
               <h1 className="text-xl tracking-wide text-white  lg:text-3xl lg:text-4xl ">
-                Set your Title
+                CONTACT US
               </h1>
               <p className="mt-4 text-white 	font-weight: 200 ">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut

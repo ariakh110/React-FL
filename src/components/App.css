@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+.floating-highlight-blue {
+  position: absolute;
+  width: 544px;
+  height: 1080px;
+  left: 1920px;
+  top: 1080px;
+
+  background: linear-gradient(
+    63.4deg,
+    rgba(46, 212, 226, 0.29) 0%,
+    rgba(46, 212, 226, 0) 50.31%
+  );
+  transform: rotate(180deg);
+}
+.floating-highlight-red {
+  position: absolute;
+  width: 544px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(
+    63.4deg,
+    rgba(252, 66, 133, 0.29) 0%,
+    rgba(252, 66, 133, 0) 50.31%
+  );
+}

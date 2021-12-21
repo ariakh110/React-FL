@@ -1,6 +1,6 @@
 import React from 'react'
 
-import HeroSVG from "../../Assets/images/world.svg";
+import HeroSVG from "../../Assets/images/Saly-1.svg";
 const About = () => {
     return (
         < >
@@ -8,7 +8,7 @@ const About = () => {
           <div className="flex flex-col items-center w-full lg:flex-row lg:w-1/2">
             <div className="max-w-lg">
               <h1 className="text-xl tracking-wide text-white  lg:text-3xl lg:text-4xl ">
-                Set your Title
+               ABOUT US
               </h1>
               <p className="mt-4 text-white 	font-weight: 200 ">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
@@ -27,7 +27,7 @@ const About = () => {
           </div>
           <div className="flex items-center justify-center w-full mt-2 lg:h-96 lg:w-1/2">
             <img
-              className="object-cover	h-80 w-100"
+              className=""	
               src={HeroSVG}
               alt="apple watch photo"
             />

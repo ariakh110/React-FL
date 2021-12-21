@@ -14,11 +14,21 @@ class Navigator extends Component {
           {/*  left header section  */}
           <div className="items-center hidden space-x-8 lg:flex">
             <>
-              <Link to="/">HOME</Link>
-              <Link to="/shop">SHOP</Link>
-              <Link to="/projects">PROJECT</Link>
-              <Link to="/about">About Us</Link>
-              <Link to="/contact">CONTACT</Link>
+              <Link to="/" className="text-white">
+                HOME
+              </Link>
+              <Link to="/shop" className="text-white">
+                SHOP
+              </Link>
+              <Link to="/projects" className="text-white">
+                PROJECT
+              </Link>
+              <Link to="/about" className="text-white">
+                ABOUT US
+              </Link>
+              <Link to="/contact" className="text-white">
+                CONTACT
+              </Link>
             </>
           </div>
           {/* right header section  */}
@@ -37,7 +47,6 @@ class Navigator extends Component {
             </button>
           </div>
         </nav>
-        
       </>
     );
   }
