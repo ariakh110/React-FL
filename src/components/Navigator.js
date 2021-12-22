@@ -11,7 +11,6 @@ class Navigator extends Component {
           <div className="flex items-center">
             <img className="img-responsive" src={Logo} />
           </div>
-          {/*  left header section  */}
           <div className="items-center hidden space-x-8 lg:flex">
             <>
               <Link to="/" className="text-white">
@@ -31,7 +30,6 @@ class Navigator extends Component {
               </Link>
             </>
           </div>
-          {/* right header section  */}
           <div className="flex items-center space-x-2">
             <button
               className="px-4 py-2 "
