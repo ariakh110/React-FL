@@ -9,7 +9,7 @@ class Navigator extends Component {
       <>
         <nav className="container flex justify-around py-8 mx-auto ">
           <div className="flex items-center">
-            <img className="img-responsive" src={Logo} />
+            <img className="img-responsive" src={Logo}  alt="Logo"/>
           </div>
           <div className="items-center hidden space-x-8 lg:flex">
             <>

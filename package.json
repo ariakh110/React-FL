@@ -44,5 +44,9 @@
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.7"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/ariakh110/React-FL.git",
+  "author": "ariakhayer <ariakh110@gmail.com>",
+  "license": "MIT"
 }

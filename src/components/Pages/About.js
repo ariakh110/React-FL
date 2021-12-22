@@ -26,11 +26,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex items-center justify-center w-full mt-2 lg:h-96 lg:w-1/2">
-            <img
-              className=""	
-              src={HeroSVG}
-              alt="apple watch photo"
-            />
+            <img className="img-responsive" src={HeroSVG} alt="heading img"/>
           </div>
         </div>
       </>
