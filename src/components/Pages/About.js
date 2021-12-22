@@ -26,7 +26,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex items-center justify-center w-full mt-2 lg:h-96 lg:w-1/2">
-            <img className="img-responsive" src={HeroSVG} alt="heading img"/>
+            <img className="img-responsive" src={HeroSVG} alt="heading_img"/>
           </div>
         </div>
       </>

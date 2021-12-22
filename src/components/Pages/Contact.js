@@ -29,7 +29,7 @@ const Contact = () => {
             <img
               className="object-cover	h-80 w-100"
               src={HeroSVG}
-              alt="apple watch photo"
+              alt="apple_watch_photo"
             />
           </div>
         </div>

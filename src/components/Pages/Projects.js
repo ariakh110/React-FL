@@ -1,9 +1,4 @@
 import React from "react";
-import ImageList from "@mui/material/ImageList";
-import ImageListItem from "@mui/material/ImageListItem";
-import ImageListItemBar from "@mui/material/ImageListItemBar";
-import IconButton from "@mui/material/IconButton";
-import StarBorderIcon from "@mui/icons-material/StarBorder";
 import Container from "@mui/material/Container";
 
 import HeroSVG from "../../Assets/images/world.svg";
@@ -46,7 +41,7 @@ const Projects = () => {
           <img
             className="object-cover	h-80 w-100"
             src={HeroSVG}
-            alt="apple watch photo"
+            alt="apple_watch_photo"
           />
         </div>
       </div>
