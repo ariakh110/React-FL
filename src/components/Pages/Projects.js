@@ -4,15 +4,6 @@ import Container from "@mui/material/Container";
 import HeroSVG from "../../Assets/images/world.svg";
 import { Grid, Paper } from "@mui/material";
 
-function srcset(image, width, height, rows = 1, cols = 1) {
-  return {
-    src: `${image}?w=${width * cols}&h=${height * rows}&fit=crop&auto=format`,
-    srcSet: `${image}?w=${width * cols}&h=${
-      height * rows
-    }&fit=crop&auto=format&dpr=2 2x`,
-  };
-}
-
 const Projects = () => {
   return (
     <>
